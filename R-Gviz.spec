@@ -3,7 +3,7 @@
 Summary:	Plotting data and annotation information along genomic coordinates
 Name:		R-%{packname}
 Version:	1.6.0
-Release:	1
+Release:	2
 License:	Artistic 2.0
 Group:		X11/Applications
 Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
