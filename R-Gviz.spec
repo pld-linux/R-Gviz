@@ -1,14 +1,15 @@
 %define		packname	Gviz
 
+%undefine	_debugsource_packages
 Summary:	Plotting data and annotation information along genomic coordinates
 Name:		R-%{packname}
-Version:	1.6.0
-Release:	2
+Version:	1.54.0
+Release:	1
 License:	Artistic 2.0
 Group:		X11/Applications
-Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	0bcff07c6791c32fce881bc3991ff0f7
-URL:		http://www.bioconductor.org/packages/release/bioc/html/Gviz.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	cd0fa7b7ace17f2d8343b3caba113207
+URL:		https://bioconductor.org/packages/release/bioc/html/Gviz.html
 BuildRequires:	R
 BuildRequires:	R-biovizBase
 BuildRequires:	R-cran-latticeExtra
